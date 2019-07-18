@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - node
+  - '6'
+deploy:
+  # add this line after travis setup
+  skip_cleanup: true
+  provider: npm
+  email: khurana_manik@yahoo.in
+  api_key:
+    secure: 98ab137f-a8ee-4348-8b1a-e034e9517b0a
+  on:
+    tags: true
+    repo: khuranamanik/manik-dialogflow
