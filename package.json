@@ -1,6 +1,6 @@
 {
   "name": "manik-dialogflow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An NPM Package to replicate Chatbot Creation on Google Dialogflow",
   "main": "build/index.js",
   "scripts": {
